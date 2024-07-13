@@ -1,4 +1,5 @@
 # Echoes
+This project can be runned as mock api is used here. 
 ## 1- Idea:
 The idea of my app is to be able to write text posts just like old twitter. My
 main idea was cloning twitter, but to do so I must have a bigger Api than I
@@ -37,4 +38,19 @@ To improve the app, with adding likes, comments, add to favorites, edit profile
 features, a bigger Api is needed. My mock API limited me to 2 resources which
 I used to save posts and save information for other users in order to make the
 app more appealing to look at. 
->>>>>>> ca00f081da5352a3b60b543c2f0fda80949c7fe5
+
+<img src="https://github.com/user-attachments/assets/3b9ebaa8-bacb-4a01-9975-fb3a961dc34f" width="200">
+
+<img src="https://github.com/user-attachments/assets/37460d12-c2ed-4743-b51b-128f8b53ca0c" width="200">
+
+<img src="https://github.com/user-attachments/assets/eda9cf78-2ca6-4b39-a4dc-53e5deaf3c7d" width="200">
+
+<img src="https://github.com/user-attachments/assets/2151c1db-0216-49bf-bc73-d98f8f69d4ef" width="200">
+
+<img src="https://github.com/user-attachments/assets/81f76f2a-d41b-4e7c-bc2f-00f4f0008df3" width="200">
+
+<img src="https://github.com/user-attachments/assets/c6cd5de0-1b62-404b-b3f9-e8805e0fbf21" width="200">
+
+<img src="https://github.com/user-attachments/assets/368550cf-e02d-4270-bd4e-91d60fa8882e" width="200"> 
+
+<img src="https://github.com/user-attachments/assets/3e807b45-02e3-47d6-bc6a-989faf30cfc6" width="200">
