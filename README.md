@@ -33,7 +33,7 @@ item or tap the like button to like the post.
 useMemo, useCallback and some logical coding optimization in order
 to improve overall performance. So, in result for that, I got a great app
 performance out of optimizing the app:
-<img src="hhttps://github.com/user-attachments/assets/74544129-3c98-4517-b591-80b7990b117c" width="600">
+<img src="https://github.com/user-attachments/assets/74544129-3c98-4517-b591-80b7990b117c" width="600">
 
 ## 3- Improving the app:
 To improve the app, with adding likes, comments, add to favorites, edit profile
