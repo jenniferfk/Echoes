@@ -1,79 +1,40 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
-
-# Getting Started
-
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
-
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+# Echoes
+## 1- Idea:
+The idea of my app is to be able to write text posts just like old twitter. My
+main idea was cloning twitter, but to do so I must have a bigger Api than I
+already have. To be able to add to favorites, or post a story or comment, I
+need more resources than I already have in my mock Api, so I decided to
+create a new app with a new name and new design. Not a complex app, but
+straight to the requirements. I didn’t want to add features that don’t work just
+for the sake of the cloning, so it resulted in a non-complex app.
+## 2- Inside the app:
+- To stock the token for login and to stock the user’s information that will
+be used and fetched inside the app, I used redux toolkit y creating
+slices, a store and connecting it to my react components.
+- If the user is not authenticated, the app takes him to the login screen,
+and if he is it takes him inside our app. And to help do that I managed it
+from the navigators.
+- Inside the app I implemented a bottom tab to access the main screens
+of the app, and a drawer to access additional screens.
+- When the user adds a post, a notification shows on his phone that the
+post has been shared.
+- I implemented deep linking in the application and tested it and put
+comments to assure that.
+- Since I don’t own a mac, I tried to make the app work for both platforms
+as much as I could but without visually seeing the results. And, for the
+platform specific code, I just tried it once on the sign out button so that I
+could show that I got the idea but can’t test it.
+- I added a like option to like the posts, but I used async storage to store
+them because the mock Api is full. You can either double tap on the text
+item or tap the like button to like the post.
+- Search Engine to search for users.
+- I used react-devtools to see the app's performance, and I used
+useMemo, useCallback and some logical coding optimization in order
+to improve overall performance. So, in result for that, I got a great app
+performance out of optimizing the app:
+## 3- Improving the app:
+To improve the app, with adding likes, comments, add to favorites, edit profile
+features, a bigger Api is needed. My mock API limited me to 2 resources which
+I used to save posts and save information for other users in order to make the
+app more appealing to look at. 
+>>>>>>> ca00f081da5352a3b60b543c2f0fda80949c7fe5
